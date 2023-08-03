@@ -1,0 +1,174 @@
+.dashboard-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.job-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-card-details {
+    flex: 1;
+}
+
+.job-card h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+
+.job-card button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job-card button:hover {
+    background-color: #0056b3;
+}
+
+.job-card button.edit-button {
+    background-color: #ffc107;
+    margin-right: 5px;
+}
+
+.job-card button.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.dashboard-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.add-job-button {
+    /* position: absolute; */
+    padding: 10px 20px 10px 10px;
+    margin: 40px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-job-button:hover {
+    background-color: #1d7d35;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+}
+
+.modal-content h3 {
+    margin-bottom: 10px;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content form input,
+.modal-content form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.modal-buttons button[type="submit"] {
+    background-color: #28a745;
+}
+
+.modal-buttons button[type="submit"]:hover {
+    background-color: #1d7d35;
+}
+
+.modal-buttons button[type="button"] {
+    background-color: #dc3545;
+}
+
+.modal-buttons button[type="button"]:hover {
+    background-color: #ab222f;
+}
+
+.header {
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    
+}
+
+
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .logout-button:hover {
+    float: right;
+    background-color: #d32f2f;
+  }
+  .logout{
+    display:flex;
+    justify-content: flex-end;
+  }

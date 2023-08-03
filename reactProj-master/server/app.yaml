@@ -1,0 +1,9 @@
+runtime: nodejs # Change this to the appropriate Node.js version if needed
+
+env: flex
+
+
+env_variables:
+  # Add your environment variables here if needed
+  # For example, if you have a secret API key:
+  # API_KEY: "your-secret-api-key"
